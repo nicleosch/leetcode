@@ -1,16 +1,16 @@
 // https://leetcode.com/problems/generate-parentheses/
-
+//---------------------------------------------------------------------------
 /*
 Given n pairs of parentheses, write a function to generate all combinations of
 well-formed parentheses.
 */
-
+//---------------------------------------------------------------------------
 #include <string>
 #include <vector>
-
+//---------------------------------------------------------------------------
 using std::string;
 using std::vector;
-
+//---------------------------------------------------------------------------
 class Solution {
 public:
   vector<string> generateParenthesis(int n) {
